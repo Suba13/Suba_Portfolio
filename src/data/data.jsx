@@ -179,25 +179,25 @@ export const testimonials = [
 // Portfolio data
 export const portfolioItems = [
   {
-    title: "Tic Tac Toe",
-    category: "Game Web Development",
+    title: "User Management REST API (Node.js + MySQL)",
+    category: "Backend Development",
     image:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-      link:"https://github.com/Suba13/TicTacToe"
+    link: "https://github.com/Suba13/node-mysql-api",
   },
   {
-    title: "Fitness App UI",
-    category: "UI/UX Design",
+    title: "Ecommerce Website",
+    category: "Full Stack Web Development",
     image:
       "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-      link:"https://github.com/Suba13/react-node-app"
+    link: "https://github.com/Suba13/shopnest",
   },
   {
-    title: "Analytics Dashboard",
-    category: "Web Development",
+    title: "Personal Portfolio",
+    category: "Frontend Development",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80",
-      link:"https://github.com/Suba13/react-node-app"
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1074&q=80",
+    link: "https://github.com/Suba13/Suba_Portfolio",
   },
 ];
 export const experiences = [
@@ -342,7 +342,8 @@ export const aboutExperiences = [
     period: "April 2024 - Sep-2024",
   },
 ];
-          {/* <div>
+{
+  /* <div>
             <h3 className="text-xl font-semibold mb-6 text-white">
               Send me a message
             </h3>
@@ -396,4 +397,5 @@ export const aboutExperiences = [
                 Send Message
               </button>
             </form>
-          </div> */}
+          </div> */
+}

@@ -19,7 +19,7 @@ const Portfolio = () => {
           {portfolioItems.map((item, index) => (
             <a
               key={index}
-              href={item.link} // make sure your portfolioItems array has a 'link' property
+              href={item.link}
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-white/10 backdrop-blur-md rounded-xl overflow-hidden border border-white/10 hover:-translate-y-1 transition-transform"
